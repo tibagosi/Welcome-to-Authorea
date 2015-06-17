@@ -2,5 +2,4 @@
 Table_of_contents_tableofcontents_begin__.tex
 5.tex
 figures/Architecture1/Architecture1.jpg
-figures/Architecture/Architecture.jpg
 chapter_Chapter_2__.tex
