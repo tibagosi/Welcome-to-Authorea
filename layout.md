@@ -5,4 +5,4 @@ begin_itemize_item_Introduction_TRADR__.tex
 figures/Architecture1/Architecture1.jpg
 Description_of_the_three_main__.tex
 chapter_Chapter_2_Design_methodology__.tex
-chapter_Chapter_3__.tex
+chapter_Chapter_3_The_USAR__.tex
