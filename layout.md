@@ -1,7 +1,6 @@
 2.tex
 Table_of_contents_tableofcontents_begin__.tex
 5.tex
-begin_itemize_item_Introduction_TRADR__.tex
 figures/Architecture1/Architecture1.jpg
 Description_of_the_three_main__.tex
 chapter_Chapter_2_Design_methodology__.tex
