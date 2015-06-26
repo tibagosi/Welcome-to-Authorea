@@ -4,6 +4,6 @@ Table_of_contents_tableofcontents_begin__.tex
 begin_itemize_item_Introduction_TRADR__.tex
 figures/Architecture1/Architecture1.jpg
 Description_of_the_three_main__.tex
-chapter_Chapter_2__.tex
+chapter_Chapter_2_MVC_design__.tex
 MVC_design_pattern_description_applicability__.tex
 Chapter_3__.tex
