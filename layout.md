@@ -4,6 +4,7 @@ Table_of_contents_tableofcontents_begin__.tex
 figures/Architecture1/Architecture1.jpg
 Description_of_the_three_main__.tex
 chapter_Chapter_2_Design_methodology__.tex
+figures/mvc-1/mvc-1.jpg
 figures/mvc-02/mvc-02.jpg
 chapter_Chapter_3_The_USAR__.tex
 chapter_Chapter_4_Cognitive_Agents__.tex
