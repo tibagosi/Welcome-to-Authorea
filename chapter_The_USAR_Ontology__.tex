@@ -1,5 +1,30 @@
 \chapter{The USAR Ontology}
+The USAR Ontology is aimed to capture the high-level information of the TRADR project, fulfilling several requirements. First, to represent the information that is being discovered during a mission, such that this can be shown on a visual interface, as well as used by the agents for reasoning. 
+The environment is represented as a map with areas, points of interest, hazards such as fire or explosion. The actors of the operation (robots and humans) are all geographically positioned on the map, and hence stored in the ontology as well. An agent stands for an actor, and each actor present has an agent, to map the reality to a multi-agent system. 
+Agents operate on this ontology in order to determine the "display logic" (as described in Chapter 5), the mapping of roles and capabilities to visual elements on the interface. Thus, the ontology serves as the base core to create situational awareness on the team level. That means that every member of the rescue team has the perfect overview of the situation he/she needs, given his/her role, task, capabilities, current status and activity. The ontology hence should capture information about a member, as well as a team, a mission, a sortie, etc... 
+
+\begin{itemize}
+\item Reuse other ontologies
+Literature review in Urban Search and Rescue, Disaster Management, and Situational Awareness was conducted in order to be able to identify the parts or information models that can be reused from existing ontologies. As each ontology was created with a specific purpose, even if the domain coincides with the purpose of our project, the level of detail or the focus is surely different between them. Generic ontologies, such as for situation awareness, or information management systems for any disaster, on the other hand are too broad, and capture a lot of information that in our case will never be used. Hence, they serve as a guideline to the spectrum of types of information we need to consider, as well as give us some general good practices, but they are not fully adopted per se. 
+On a lower level, data properties such as geo-spatial or information about a person are clearly taken from known and widely used ontologies: GeoNames and FOAF (Friend of a Friend). 
+
+
+\item USAR ask the expert 
+\begin{itemize}
+\item Firefighter perspective
+\item Robot perspective
+\end{itemize}
+\item Modular ontology design
+\begin{itemize}
+\item Domain ontology
+\item HL - Situation awareness, human 
+\item User model
+\item Teamwork model
+\item LL - Sensor data, robot
+\end{itemize}
+\item The Ontology itself
+\item Evaluation
+\end{itemize}
     
-    
-    
+  
   
