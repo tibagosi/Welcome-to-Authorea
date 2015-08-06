@@ -2,9 +2,9 @@
 The USAR Ontology is aimed to capture the high-level information of the TRADR project, fulfilling several requirements. First, to represent the information that is being discovered during a mission, such that this can be shown on a visual interface, as well as used by the agents for reasoning. 
 The environment is represented as a map with areas, points of interest, hazards such as fire or explosion. The actors of the operation (robots and humans) are all geographically positioned on the map, and hence stored in the ontology as well. An agent stands for an actor, and each actor present in the mission has a corresponding agent, to map the real world to a multi-agent system. 
 
-Agents operate on this ontology in order to determine the display logic (as described in Chapter 5), the mapping of roles and capabilities to visual elements on the interface. Thus, the ontology serves as the base core to create situational awareness on the team level. That means that every member of the rescue team has the perfect overview of the situation he/she needs, given his/her role, task, capabilities, current status and activity. The ontology hence should capture information about a member, as well as a team, a mission, a sortie, etc.
+Agents operate on this ontology in order to determine the display logic (as described in Chapter 5), the mapping of roles and capabilities to visual elements on the interface. Each agent creates a personalized or user-specific view, depending on the type of user. But not only is the graphical view tailored to the user, but the amount and type of information furnished to the user as well. Thus, the ontology serves as the base core to create situational awareness on the personal, as well as on the team level. That means that every member of the rescue team has the perfect overview of the situation he/she needs, given his/her role, task, capabilities, current status and activity. The ontology hence should capture information about a member, as well as a team, a mission, a sortie, etc.
  
-
+In the following, we discuss the several aspects, that together, form our ontology for USAR. Each aspect present a different requirement for the ontology to fulfill. Even though there might be fully constructed and openly available ontologies for each aspect we consider shortly, combining all of them into one big ontology does not yield the best design that would fit our purposes. If we want a light-weight, easily usable, but comprehensive enough ontology that fulfills all requirements, we need only to take the best practices and those parts of the existing ontologies, that capture and serve our problem best. The so obtained final ontology will be specific from some points of view (such as the domain of USAR instead of the broad concept disaster management), but generic in some others (such as user or team model) that could be applied for other problems as well.
 \begin{itemize}
 \item Reuse other ontologies
 Literature review in Urban Search and Rescue, Disaster Management, and Situational Awareness was conducted in order to be able to identify the parts or information models that can be reused from existing ontologies. As each ontology was created with a specific purpose, even if the domain coincides with the purpose of our project, the level of detail or the focus is surely different between them. Generic ontologies, such as for situation awareness, or information management systems for any disaster, on the other hand are too broad, and capture a lot of information that in our case will never be used. Hence, they serve as a guideline to the spectrum of types of information we need to consider, as well as give us some general good practices, but they are not fully adopted per se. 
@@ -49,6 +49,7 @@ The current ontology is a first draft of the main
 
 
 \end{itemize}
+  
   
   
   
