@@ -8,7 +8,7 @@ figures/mvc-2/mvc-2.jpg
 subsection_Model_USAR_Ontology_subsection__.tex
 subsection_The_TRADR_Scenario_begin__.tex
 chapter_The_USAR_Ontology_textbf__.tex
-chapter_Cognitive_Agents_Cognitive_agents__.tex
+chapter_Cognitive_Agents_textbf_Research__.tex
 chapter_Smart_Visualization_Display_Logic__.tex
 chapter_Preliminary_and_Expected_Results__.tex
 chapter_Conclusion_This_document_describes__.tex
