@@ -49,17 +49,21 @@ As seen already from the previous discussion, such an USAR Ontology has many per
 The domain ontology captures the domain of Urban Search and Rescue.
 
 
-\item HL - Situation awareness, human perspective
+\item High-level data: Situation awareness, human perspective
 
+High-level information concerns inferred information about 
+Most of this will be furnished by the agents, that insert such knowledge in the ontology through online reasoning during the mission. 
 
 \item Actor model
+
 The actor model part of the ontology aims at capturing all possible and required information about one actor. In the literature it's normally referred to as user model, but since we are not dealing only with end-users (firefighters), but also robots, we commonly call them actors of the mission. Inside this category we can still differentiate between human-specific properties or model (user model), and robot model, accordingly. The user model should capture the cognitive overload, the physical tiredness and other attributes that the robots do not dispose, and conversely, the robot model contains description of robot attributes, such as : battery level, hardware/software failure, mode of operation: manual/automatic, level of autonomy, etc... 
 
-\item Teamwork model
+\item Team and teamwork model
 
-From the team perspective every actor (human or robot) in the mission is a team member with a specific role, activity status, a set of capabilities, and a list of assigned tasks. Some properties will be clearly human-specific: level of cognitive overload, physical tiredness, etc., and some robot-specific: battery level, . But from the team perspective they are viewed as equal, with different and varying properties.  
+From the team perspective every actor (human or robot) in the mission is a team member with a specific role, activity status, a set of capabilities, and a list of assigned tasks. Even though some properties will be clearly human-specific, as discussed in the previous paragraph, from the team perspective they are viewed as equal, with different and varying capabilities and properties. For example, only the aerial vehicle will be able to complete the task of taking an overview shot of the scene, while inspecting a specific ground instance can be completed by both a ground vehicle or an infield rescuer. Our team and teamwork model has to capture generic team hierarchy, team properties (such as common goal or common specialty, eg.HAZMAT, team name, etc...), but also relation to other teams, and the role they play in the overall sortie and mission.
 
-\item LL - Sensor data, robot
+\item Low-level data - information system perspective
+Sensor information coming from robots
 
 \end{itemize}
 
@@ -67,12 +71,16 @@ From the team perspective every actor (human or robot) in the mission is a team 
 \item The Ontology itself
 
 The current ontology is a first draft of the main 
+
 \item Evaluation
+
+
 
 \textbf{Future plan}
 To validate and evaluate the constructed and gradually improved ontology against all requirements and users of the project during TRADR evaluation and experimentation events. To conduct an end-user experiment to determine the level of adequacy of the ontology. To evaluate the ontology from the graphical interface's and cognitive agents' point of view.  
 
 \end{itemize}
+  
   
   
   
