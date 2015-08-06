@@ -7,60 +7,59 @@ Agents operate on this ontology in order to determine the display logic (as desc
 In the following, we discuss the several aspects, that together, form our ontology for USAR. Each aspect present a different requirement for the ontology to fulfill. Even though there might be fully constructed and openly available ontologies for each aspect we consider shortly, combining all of them into one big ontology does not yield the best design that would fit our purposes. If we want a light-weight, easily usable, but comprehensive enough ontology that fulfills all requirements, we need only to take the best practices and those parts of the existing ontologies, that capture and serve our problem best. The so obtained final ontology will be specific from some points of view (such as the domain of USAR instead of the broad concept disaster management), but generic in some others (such as user or team model) that could be applied for other problems as well.
 \begin{itemize}
 \item Reuse other ontologies
+
 Literature review in Urban Search and Rescue, Disaster Management, and Situational Awareness was conducted in order to be able to identify the parts or information models that can be reused from existing ontologies. As each ontology was created with a specific purpose, even if the domain coincides with the purpose of our project, the level of detail or the focus is surely different between them. Generic ontologies, such as for situation awareness, or information management systems for any disaster, on the other hand are too broad, and capture a lot of information that in our case will never be used. Hence, they serve as a guideline to the spectrum of types of information we need to consider, as well as give us some general good practices, but they are not fully adopted per se. 
 
 On a lower level, data properties such as geo-spatial or information about a person are clearly taken from known and widely used ontologies: GeoNames and FOAF (Friend of a Friend). 
 
 
 \item USAR ask the expert 
+
 Ontologies are generally constructed starting with the experts (cite) of the domain. In our case, the urban search and rescue experts are the firefighters themselves. But since the TRADR project introduces robots as team members in the rescue operation, our ontology captures the robot's point of view as well. Hence, we can distinguish the two perspectives when looking at the domain: firefighter (human) and robot perspective.
 \begin{itemize}
 \item Firefighter perspective
+
 The firefighters were asked about all the possible types of information they work with, and they need to work with in order to successfully complete a mission. This regards information transmitted between team-members through a telecommunication device, signs and signals in case this is not possible, and implicitly assumed to be known information that the firefighters are trained for, and hence have their own jargon that contains crucial knowledge.
 
 \item Robot perspective
+
 From the robot perspective the ontology has to capture all information that the robot can detect (which depends on the available hard- and software that these robots are equipped with). The environment might take a status information such as traversable/non-traversable, which clearly serves the ground robot, but not the aerial one. A big importance is given to providing explicit failure information, such as: a flipper is blocked, or software is restarting, or calculating planned path, that serves every other team member with the most crucial status information. This information would come from lower level software that is concerned with the operability of the robot.
 
 \item Team perspective
+
 From the team perspective every actor (human or robot) in the mission is a team member with a specific role, activity status, a set of capabilities, and a list of assigned tasks. Some properties will be clearly human-specific: level of cognitive overload, physical tiredness, etc., and some robot-specific: battery level,. But from the team perspective they are viewed as equal, with different and varying properties.  
 
 \end{itemize}
 
 
 \item Modular ontology design
+
 As seen already from the previous discussion, such an USAR Ontology has many perspectives, and from each different perspective requires different types of data to be captures and correctly represented for reasoning purposes. Hence, we propose a modular ontology design, that would be able to plug in all domains and aspects needed in TRADR into one ontology, fulfilling the level of specificity for each module as needed. E.g:for the domain of disasters and disaster response we are only interested in the urban search and rescue operations, but from the team perspective, the team module could fit any other operational team in another domain.
 
 
 \begin{itemize}
 \item Domain ontology
+
 The domain ontology captures the domain of Urban Search and Rescue.
 \item HL - Situation awareness, human perspective
+
 \item User model
+
 \item Teamwork model
+
 From the team perspective every actor (human or robot) in the mission is a team member with a specific role, activity status, a set of capabilities, and a list of assigned tasks. Some properties will be clearly human-specific: level of cognitive overload, physical tiredness, etc., and some robot-specific: battery level, . But from the team perspective they are viewed as equal, with different and varying properties.  
 
 \item LL - Sensor data, robot
+
 \end{itemize}
 
 
 \item The Ontology itself
+
 The current ontology is a first draft of the main 
 \item Evaluation
 
 
 \end{itemize}
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
