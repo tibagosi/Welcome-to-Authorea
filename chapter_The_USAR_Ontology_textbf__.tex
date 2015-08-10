@@ -1,10 +1,13 @@
 \chapter{The USAR Ontology}
-\textbf{Research question} What is the ontology that best captures long-term human-robot teamwork in urban search and rescue? How to design and construct such an ontology?
+\textbf{Research question} How to design an ontology that best captures long-term human-robot teamwork in urban search and rescue? 
 
 The USAR Ontology is aimed to capture the high-level information of the TRADR project, fulfilling several requirements. First, to represent the information that is being discovered during a mission, such that this can be shown on a visual interface, as well as used by the agents for reasoning. 
-The environment is represented as a map with areas, points of interest, hazards such as fire or explosion. The actors of the operation (robots and humans) are all geographically positioned on the map, and hence stored in the ontology as well. An agent stands for an actor, and each actor present in the mission has a corresponding agent, to map the real world to a multi-agent system. 
+The environment is represented as a map with areas, points of interest, hazards such as fire or explosion. The actors of the operation (robots and humans) are all geographically positioned on the map, and hence stored in the ontology as well. 
 
-Agents operate on this ontology in order to determine the display logic (as described in Chapter 5), the mapping of roles and capabilities to visual elements on the interface. Each agent creates a personalized or user-specific view, depending on the type of user. But not only is the graphical view tailored to the user, but the amount and type of information furnished to the user as well. Thus, the ontology serves as the base core to create situational awareness on the personal, as well as on the team level. That means that every member of the rescue team has the perfect overview of the situation he/she needs, given his/her role, task, capabilities, current status and activity. The ontology hence should capture information about a member, as well as a team, a mission, a sortie, etc.
+An agent stands for an actor, and each actor present in the mission has a corresponding agent, to map the real world to a multi-agent system. Thus, the ontology needs to be able to capture user or actor models, to describe the status and circumstances of that particular actor, so it can be used for reasoning purposes.
+To represent robots in a same manner as humans (just with different properties) helps strengthen the view of them being equal team-members with different capabilities. This is a view the project very much focuses on that we need to capture.
+
+Agents operate on this ontology (are the consumers and manipulators of the ontology) in order to determine the display logic (as described in Chapter 5), the mapping of roles and capabilities to visual elements on the interface. Each agent creates a personalized or user-specific view, depending on the type of user. But not only is the graphical view tailored to the user, but the amount and type of information furnished to the user as well. Thus, the ontology serves as the base core to create situational awareness on the personal, as well as on the team level. That means that every member of the rescue team has the perfect overview of the situation he/she needs, given his/her role, task, capabilities, current status and activity. The ontology hence should capture information about a member, as well as a team, a mission, a sortie, etc. The collection of these concepts we call teamwork or team information.
  
 \section{Aspects of the ontology} 
 In the following, we discuss the several aspects, that together, form our ontology for USAR. Each aspect present a different requirement for the ontology to fulfill. 
@@ -81,6 +84,7 @@ The current ontology is a first draft of the main
 To validate and evaluate the constructed and gradually improved ontology against all requirements and users of the project during TRADR evaluation and experimentation events. To conduct an end-user experiment to determine the level of adequacy of the ontology. To evaluate the ontology from the graphical interface's and cognitive agents' point of view.  
 
 \end{itemize}
+  
   
   
   
