@@ -12,5 +12,5 @@ chapter_The_USAR_Ontology_textbf__.tex
 chapter_Cognitive_Agents_textbf_Research__.tex
 figures/Agent-MST1/Agent-MST1.png
 chapter_Smart_Visualization_Display_Logic__.tex
-chapter_Preliminary_and_Expected_Results__.tex
+chapter_Future_plans_section_Preliminary__.tex
 chapter_Conclusion_This_document_describes__.tex
