@@ -1,4 +1,4 @@
-\chapter{Cognitive Agents}
+\section{Cognitive Agents}
 
 \textbf{Research question:} How to create agents using ontological technology in a team setting?
 
@@ -12,35 +12,36 @@ Cognitive agents, by the definition of (cite) are pieces of software that percei
 Thus, the agent can be seen as the mediator of an actor. It mediates not only the high-level information an actor needs to know and work with shown on the visual output, but also 
 
 
-\section{GOAL agent programming framework}
+\subsection{GOAL agent programming framework}
 
 The GOAL agent programming framework (cite) was introduced by (cite), and represents today a powerful tool for agent development. It is a Java-based program with its own GOAL language for agent definition and basic program constructs (if rules, for loops, message, percept and goal operators). 
 In GOAL, a multi-agent system consists of agents that get percepts from an environment, perform actions on it, and send messages between each other. Each agent is defined by a set bases: a knowledge, a belief, a percept, a message and a goal base. Described more in detail here (cite).
 At the current state, it had support for Prolog as a Knowledge Representation Technology for agents. 
 As the project requires ontologies to be the way of representing knowledge, agents are now faced with the problem of using ontology technologies for KR purposes. This introduced the need for a change: instead of hard-wiring now ontology technologies into GOAL, a better, more generic approach was taken to be able to plug in from now on any KR technology for the use of agents. As discussed more in detail in the paper (cite), the generic KR Interface was created and used for this purpose.
 
-\section{KR Interface}
+\subsection{KR Interface}
 
 The KR Interface is a generic interface for cognitive agents to be able to use any KRT (under some basic assumptions) for representing the agents' knowledge. 
 
 
-\section{OWL mental state}
+\subsection{OWL mental state}
 
 The mental state of an agent is a collection of its mental bases. An agent's mental state consists of its own mental base and the mental bases of other agents, so it can reason about the beliefs, percepts and goals of other agents. The agent's own mental state consists of all five previously introduced bases, but the agent's mental base about other agents only contains the three mentioned ones. 
 
 OWL mental state concept and implementation.
 
-\section{OWL agents}
+\subsection{OWL agents}
 
 Finally, an OWL agent then can do this,this,this, explain how they are different / better/ worse than Prolog agents. How they serve the TRADR project or any other application purpose. 
 Plan: full comparison with Prolog agents, speed test, expressivity, features available, etc.
 
-\section{Semantic web for agents}
+\subsection{Semantic web for agents}
 
 Since ontological technologies that we used here allows us to reach out to the Semantic Web,
 (in the future), agents will be available 
 
 
+  
   
   
   
