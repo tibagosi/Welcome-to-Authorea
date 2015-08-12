@@ -12,4 +12,4 @@ section_Cognitive_Agents_textbf_Research__.tex
 figures/Agent-MST1/Agent-MST1.png
 section_Smart_Visualization_Display_Logic__.tex
 section_Future_plans_subsection_Preliminary__.tex
-chapter_Conclusion_This_document_describes__.tex
+section_Conclusion_This_document_describes__.tex
