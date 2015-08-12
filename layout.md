@@ -8,7 +8,7 @@ chapter_Design_Methodology_This_chapter__.tex
 figures/mvc-2/mvc-2.jpg
 subsection_The_TRADR_Scenario_begin__.tex
 section_The_USAR_Ontology_textbf__.tex
-chapter_Cognitive_Agents_textbf_Research__.tex
+section_Cognitive_Agents_textbf_Research__.tex
 figures/Agent-MST1/Agent-MST1.png
 chapter_Smart_Visualization_Display_Logic__.tex
 chapter_Future_plans_section_Preliminary__.tex
