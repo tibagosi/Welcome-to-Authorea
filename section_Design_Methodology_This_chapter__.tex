@@ -6,13 +6,14 @@ This chapter aims at describing the main design principles and methods the work 
 The Model-View-Controller is a well-known software design pattern in literature. It is applicable for systems that require some data to be manipulated and shown on a visual interface to a human user. The main idea is to separate the three interconnecting components of data model, data manipulation and visualization.
 \begin{itemize}
 \item Model - It is the data model that represents the problem domain. It directly manipulates actual data residing in some storage. 
-\item Controller - The mediating entity between the View and the Model, has the responsibility of modifying the data in the Model, processing user input from the View, and modifying or triggering an update in the View to reflect the new changes of states.
 \item View - The visual interface can show the data in any visual format required. This format or method is independent of both the Model and the Controller. The View is shown to the human user (the output of the View), who also interacts with the interface, and hence can also provide new information or changes (an input of the View). The View then delegates these user inputs to the Controller, that processes them. 
 \item User - Represents the human looking at and observing the View, and additionally giving user inputs.
+\item Controller - The mediating entity between the View and the Model, has the responsibility of modifying the data in the Model, processing user input from the View, and modifying or triggering an update in the View to reflect the new changes of states.
 
 \end{itemize}
 
 
+  
   
   
   
