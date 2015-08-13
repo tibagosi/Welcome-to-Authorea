@@ -19,16 +19,19 @@ In GOAL, a multi-agent system consists of agents that get percepts from an envir
 At the current state, it had support for Prolog as a Knowledge Representation Technology for agents. 
 As the project requires ontologies to be the way of representing knowledge, agents are now faced with the problem of using ontology technologies for KR purposes. This introduced the need for a change: instead of hard-wiring now ontology technologies into GOAL, a better, more generic approach was taken to be able to plug in from now on any KR technology for the use of agents. As discussed more in detail in the paper (cite), the generic KR Interface was created and used for this purpose.
 
-\subsection{KR Interface}
+\subsection{Knowledge Representation Interface (KRI)}
 
 The KR Interface is a generic interface for cognitive agents to be able to use any KRT (under some basic assumptions) for representing the agents' knowledge. 
 
 
-\subsection{OWL mental state}
+\subsection{mental State Interface (MSTI)}
 
-The mental state of an agent is a collection of its mental bases. An agent's mental state consists of its own mental base and the mental bases of other agents, so it can reason about the beliefs, percepts and goals of other agents. The agent's own mental state consists of all five previously introduced bases, but the agent's mental base about other agents only contains the three mentioned ones. 
+The mental state of an agent is a collection of its mental bases. An agent's mental state consists of its own mental base and the mental bases of other agents, so it can reason about the beliefs, percepts and goals of other agents. The mental state interface is a generic API to encode this 
+
+The agent's own mental state consists of all five previously introduced bases, but the agent's mental base about other agents only contains the three mentioned ones. 
 
 OWL mental state concept and implementation.
+
 
 \subsection{OWL agents}
 
@@ -38,7 +41,7 @@ Plan: full comparison with Prolog agents, speed test, expressivity, features ava
 \subsection{Semantic web for agents}
 
 Since ontological technologies that we used here allows us to reach out to the Semantic Web,
-(in the future), agents will be available 
+(in the future), agents will be available to access and query external information (respective to the union of their knowledge) from the web. Ontological technologies, namely RDF/RDFS triple format \cite{} and SPARQL query language \cite{} are the currently most widely used standards for the Linked Open Data \cite{}. Such information exists right now  
 
 
 
@@ -51,5 +54,6 @@ Since ontological technologies that we used here allows us to reach out to the S
 \item OWL Agents capable of using the Semantic Web to acquire external information that is needed, such as weather data, topographical, geographical data, etc...
 \end{itemize}
 
+  
   
   
